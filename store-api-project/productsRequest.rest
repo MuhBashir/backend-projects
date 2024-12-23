@@ -1,0 +1,7 @@
+### get all products static
+GET http://localhost:3001/api/v1/products/static
+
+
+
+### get all products
+GET http://localhost:3001/api/v1/products?limit=1

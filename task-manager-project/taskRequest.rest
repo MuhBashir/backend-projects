@@ -1,0 +1,23 @@
+### get all tasks
+GET  http://localhost:3001/api/v1/tasks
+
+### create task
+POST  http://localhost:3001/api/v1/tasks
+Content-Type: application/json
+
+{
+ "name": "task 3"
+}
+
+### update task
+PATCH  http://localhost:3001/api/v1/tasks/67581116c6a69593d3438d0
+Content-Type: application/json
+
+{
+ "name": "updating task"
+}
+
+### delete task
+DELETE  http://localhost:3001/api/v1/tasks/6758092e0baf08270cac10bd
+
+
